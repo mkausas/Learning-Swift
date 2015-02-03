@@ -12,6 +12,7 @@ class FirstTableViewController: UITableViewController {
 
     var firstTableArray = [String]()
     var secondArray = [SecondTable]()
+    var thirdArray = [ThirdView]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +25,13 @@ class FirstTableViewController: UITableViewController {
             SecondTable(secondTitle: ["secondfirst", "secondsecond", "secondthird"]),
             SecondTable(secondTitle: ["thirdfirst", "thirdsecond", "thirdthird"]),
             SecondTable(secondTitle: ["thirdfirst"])
-            
+        ]
+        
+        thirdArray = [
+            ThirdView(thirdViewArray: ["dhsakjdhsakh", "", ""]), // paired to firstfirst
+            ThirdView(thirdViewArray: ["", "", ""]),
+            ThirdView(thirdViewArray: ["", "", ""]),
+            ThirdView(thirdViewArray: ["", "", ""])
         ]
     }
 
@@ -52,6 +59,11 @@ class FirstTableViewController: UITableViewController {
         secondTableArrayTwo = secondArray[indexPath.row]
         
         destViewController.secondArray = secondTableArrayTwo.secondTitle
+        
+        var thirdAnswerArray : ThirdView
+        thirdAnswerArray = thirdArray[indexPath.row]
+
+        destViewController.secondAnswerArray = thirdAnswerArray.thirdViewArray
     }
 
 }

@@ -17,6 +17,7 @@
 		4096A5651A808D3000086829 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096A5641A808D3000086829 /* SecondTableViewController.swift */; };
 		4096A5671A808E8B00086829 /* SecondTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096A5661A808E8B00086829 /* SecondTable.swift */; };
 		4096A5691A8094AE00086829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096A5681A8094AE00086829 /* ViewController.swift */; };
+		4096A56B1A80996500086829 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096A56A1A80996500086829 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4096A5641A808D3000086829 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		4096A5661A808E8B00086829 /* SecondTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTable.swift; sourceTree = "<group>"; };
 		4096A5681A8094AE00086829 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4096A56A1A80996500086829 /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				4096A5461A80861000086829 /* FirstTableViewController.swift */,
 				4096A5641A808D3000086829 /* SecondTableViewController.swift */,
 				4096A5681A8094AE00086829 /* ViewController.swift */,
+				4096A56A1A80996500086829 /* ThirdView.swift */,
 				4096A5661A808E8B00086829 /* SecondTable.swift */,
 				4096A5481A80861000086829 /* Main.storyboard */,
 				4096A54B1A80861000086829 /* Images.xcassets */,
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4096A56B1A80996500086829 /* ThirdView.swift in Sources */,
 				4096A5691A8094AE00086829 /* ViewController.swift in Sources */,
 				4096A5471A80861000086829 /* FirstTableViewController.swift in Sources */,
 				4096A5421A80861000086829 /* AppDelegate.swift in Sources */,

@@ -12,6 +12,7 @@ import UIKit
 class SecondTableViewController: UITableViewController {
 
     var secondArray = [String]()
+    var secondAnswerArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +31,9 @@ class SecondTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow()!
+
         var destViewController = segue.destinationViewController as ViewController
-        destViewController.firstString = "dfasfjkshfkjsdhfjka"
-        
+        destViewController.firstString = secondAnswerArray[indexPath.row]
     }
 }
